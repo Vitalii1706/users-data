@@ -1,0 +1,48 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.editable-row .ant-form-item-explain {
+    position: absolute;
+    top: 100%;
+    font-size: 12px;
+}
+
+
+.page {
+  width: 100vw;
+  height: 100vh;
+  display: flex;  
+}
+
+.page__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.page__content-h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation__item {
+  margin: 8px;
+}
+
+
+ 
